@@ -1,0 +1,16 @@
+---
+:devices:
+- kind: :Device
+  name: :ns16550
+  registers:
+  - kind: :Register
+    name: :lsr
+    size: 1
+    offset: 0
+- kind: :Device
+  name: :test
+  registers:
+  - kind: :Register
+    name: :t800
+    size: 4096
+    offset: 34952
